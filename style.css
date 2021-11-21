@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 15%;
+  max-width: 15%;
+  min-width: 300px;
+  flex-wrap: wrap;
+  min-height: auto;
+  background-color: #fff;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.6);
+  position: relative;
+  border-radius: 1em;
+  padding: 1% 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item .item-checked {
+  flex: 95%;
+  max-width: 95%;
+  max-height: 20px;
+  padding: 12px;
+  border: 1px solid;
+  margin: 0% 1% 0% 1%;
+  background-color: #f6f6f6;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.item-checked {
+    text-decoration: line-through;
+}
+
+button {
+  position: relative;
+  padding: 5px 5px 15px;
+}
+
+.footer {
+  margin: 5% 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+ul li {
+  width: auto;
+  margin-top: -1px;
+  padding: 5px 5px;
+  font-size: 12px;
+  color: black;
+  display: inline;
+}
+
+.add-item {
+  display: flex;
+  margin: 20% 0% 0% 0%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.new-item {
+  width: 90%;
+  padding: 15px 15px;
+}
+
+.add-button {
+  width: 10%;
+  padding: 5px 5px;
+}
