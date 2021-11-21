@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/main.js" defer></script>
+    <!-- defer is needed only if html elements are here rather than created by js -->
+  </head>
+  <body>
+      <div class="flex-container" id="flex-container1">
+        <h1>ToDos</h1>
+        <!-- <div id="all-items" class="item">
+          <input type="checkbox" class="checkbox" name="done" id="check" value="">
+          <label for="check">do all things</label>
+          <button type="button" name="remove">X</button>
+        </div>
+        <div id="active-items" class="item">
+          <input type="checkbox" class="checkbox" name="done" id="check" value="">
+          <label for="check">do all things</label>
+          <button type="button" name="remove">X</button>
+        </div>
+        <div id="completed-items" class="item">
+          <input type="checkbox" class="checkbox" name="done" id="check" value="">
+          <label for="check">do all things</label>
+          <button type="button" name="remove">X</button>
+        </div> -->
+        <div class="flex-container2" id="flex-container2">
+        </div>
+        <div class="add-item">
+          <input placeholder="Add Todo.." type="text" class="new-item" id="new-thing" name="">
+          <button class="add-button" onclick="addItem(document.getElementById('new-thing').value);">+</button>
+        </div>
+
+        <div class="footer">
+          <p id="message-holder"></p>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" id="tab-1">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="ex1-tab-2">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="ex1-tab-3">Completed</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>
